@@ -1,0 +1,18 @@
+title               : Raghu Boosetty
+description         : >-                               # >- means to ignore newlines until "url:"
+                      I am passionate about creating innovative and user-friendly products that can outperform human thoughts and solve complex problems. I enjoy collaborating with other leaders, stakeholders, and customers to understand their needs and expectations, and to present the demos and outcomes of our projects. I also take pride in mentoring, coaching, and hiring the best talent for my team, and fostering a culture of excellence and continuous learning.
+
+url                 : "https://vyshnav2255.github.io/Minimal-Portfolio-Website/"
+repository          : Vyshnav2255/Minimal-Portfolio-Website 
+
+email: raghuboosetty@gmail.com
+github_user: raghuboosetty
+linkedin: raghuboosetty
+
+
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock

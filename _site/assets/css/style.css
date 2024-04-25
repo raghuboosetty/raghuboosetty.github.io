@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@600;700&family=Sen:wght@400;700;800&display=swap");
+html, body { height: 100%; color: #000; }
+
+.content { padding-right: 30px; padding-left: 30px; }
+
+.blurbg { background: rgba(255, 255, 255, 0.6); backdrop-filter: blur(20px); padding-right: 30px; padding-left: 30px; }
+
+@media (min-width: 768px) { .height-100 { height: 100%; } }
+h1 { font-family: 'Kulim Park', sans-serif; font-weight: 700 !important; }
+
+.text { font-family: 'Sen', sans-serif; font-weight: 400; }
+
+.description { font-size: 18px; opacity: 0.7; }
+
+.small-heading { font-size: 12px; display: block; margin-top: 20px; margin-bottom: 10px; color: #00b0ff; font-weight: 600; }
+
+.background-test { position: relative; }
+
+.container-fluid { padding-left: 0px; padding-right: 0px; }
+
+@media (min-width: 768px) { .height-100 { height: 100%; } }
+.bottom-img img { width: 100%; padding-top: 60px; }
+
+.container-fluid .row { margin-left: 0px; margin-right: 0px; }
+
+@media (max-width: 767px) { .logo { padding-top: 48px; filter: invert(38%) sepia(74%) saturate(1352%) hue-rotate(12deg) brightness(119%) contrast(119%); width: 70px; } }
+.logo { padding-bottom: 20px; filter: invert(38%) sepia(74%) saturate(1352%) hue-rotate(12deg) brightness(119%) contrast(119%); width: 70px; }
+
+.social-icon { transition: 0.2s; text-decoration: none; margin-right: 10px; margin-left: 0px; }
+
+@media (min-width: 768px) { .social-icon { margin-right: 0px; margin-right: 20px; } }
+.social-icon:hover { filter: drop-shadow(0 0 0.75rem #00b0ff); text-decoration: none; }
+
+.btn-outline-dark { font-family: 'Sen', sans-serif; }
+
+.background { display: block; width: 100%; height: 100%; position: absolute; background-image: url(Images/background.svg); background-repeat: no-repeat; background-position: right top; background-size: auto 100vh; filter: invert(38%) sepia(74%) saturate(1352%) hue-rotate(12deg) brightness(119%) contrast(119%); }
+
+.link-after { content: ''; display: block; height: .15em; background: #43d6b5; }
+
+.nav-link, .navbar-brand { text-transform: lowercase; }
+.nav-link:hover, .navbar-brand:hover { text-decoration: underline 3px #43d6b5; }
+
+.nav-item.active { font-weight: bold; text-decoration: underline 3px #43d6b5; }
+
+.navbar-brand { margin-bottom: 0px !important; }
+.navbar-brand::after { margin-top: -.25em; }
+
+.navbar-toggler { border: none; }
