@@ -3,7 +3,7 @@
 This a minimal portfolio website for designers and developers.
 </div>
  &nbsp;
-<img src="Preview.png">
+<img src="preview.png">
 
 * More features will be added according to the user needs.
 
