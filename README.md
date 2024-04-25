@@ -25,5 +25,5 @@ bundle exec jekyll s
 The site should now be available at http://0.0.0.0:4000/
 
 <div align="center">
-<sub><sup>© 2021 Vyshnav, licensed under the <a href="./LICENSE">MIT License</a>.</sup></sub>
+<sub><sup>© 2024 Raghu, licensed under the <a href="./LICENSE">MIT License</a>.</sup></sub>
 </div>
