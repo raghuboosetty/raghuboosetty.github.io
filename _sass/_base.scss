@@ -1,14 +1,14 @@
 html,
 body {
     height: 100%;
-    color: #000;
+    // color: #000;
 }
 .content {
     padding-right: 30px;
     padding-left: 30px;
 }
 .blurbg {
-    background: rgba(255,255,255,.6);
+    // background: rgba(255,255,255,.6);
     backdrop-filter: blur(20px);
     padding-right: 30px;
     padding-left: 30px;
@@ -76,7 +76,7 @@ h1 {
 }
 .logo {
     padding-bottom: 20px;
-    filter: invert(38%) sepia(74%) saturate(1352%) hue-rotate(12deg) brightness(119%) contrast(119%);
+    // filter: invert(38%) sepia(74%) saturate(1352%) hue-rotate(12deg) brightness(119%) contrast(119%); //dark-mode
     width: 70px;
 }
 .social-icon {
@@ -84,6 +84,7 @@ h1 {
     text-decoration: none;
     margin-right: 10px;
     margin-left: 0px;
+    // filter: invert(38%) sepia(74%) saturate(1352%) hue-rotate(37deg) brightness(119%) contrast(119%); //dark-mode
 }
 
 @media (min-width: 768px) {
@@ -94,8 +95,17 @@ h1 {
 }
 .social-icon:hover {
     filter: drop-shadow(0 0 0.75rem #00b0ff);
+    // filter: invert(29%) sepia(74%) saturate(1352%) hue-rotate(22deg) brightness(119%) contrast(119%); //dark-mode
     text-decoration: none;
 }
+// .hire-me {
+//     filter: invert(38%) sepia(74%) saturate(1352%) hue-rotate(37deg) brightness(119%) contrast(119%); //dark-mode
+// }
+
+// .hire-me:hover {
+//     filter: invert(29%) sepia(74%) saturate(1352%) hue-rotate(22deg) brightness(119%) contrast(119%); //dark-mode
+// }
+
 .btn-outline-dark{
     font-family: 'Sen', sans-serif;
 }

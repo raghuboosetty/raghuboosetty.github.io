@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@600;700&family=Sen:wght@400;700;800&display=swap");
-html, body { height: 100%; color: #000; }
+html, body { height: 100%; }
 
 .content { padding-right: 30px; padding-left: 30px; }
 
-.blurbg { background: rgba(255, 255, 255, 0.6); backdrop-filter: blur(20px); padding-right: 30px; padding-left: 30px; }
+.blurbg { backdrop-filter: blur(20px); padding-right: 30px; padding-left: 30px; }
 
 @media (min-width: 768px) { .height-100 { height: 100%; } }
 h1 { font-family: 'Kulim Park', sans-serif; font-weight: 700 !important; }
@@ -24,7 +24,7 @@ h1 { font-family: 'Kulim Park', sans-serif; font-weight: 700 !important; }
 .container-fluid .row { margin-left: 0px; margin-right: 0px; }
 
 @media (max-width: 767px) { .logo { padding-top: 48px; filter: invert(38%) sepia(74%) saturate(1352%) hue-rotate(12deg) brightness(119%) contrast(119%); width: 70px; } }
-.logo { padding-bottom: 20px; filter: invert(38%) sepia(74%) saturate(1352%) hue-rotate(12deg) brightness(119%) contrast(119%); width: 70px; }
+.logo { padding-bottom: 20px; width: 70px; }
 
 .social-icon { transition: 0.2s; text-decoration: none; margin-right: 10px; margin-left: 0px; }
 
